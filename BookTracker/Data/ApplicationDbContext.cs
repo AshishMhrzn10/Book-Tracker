@@ -11,5 +11,6 @@ namespace BookTracker.Data
           
         }
         public DbSet<Book> Book { get; set; }
+        public DbSet<Register> Register { get; set; }
     }
 }
